@@ -5,6 +5,7 @@
 	"solution": "https://bitbucket.org/codingacademy/simple-counter-react",
 	"status": "published",
 	"translations": ["es", "us"],
+	"difficulty": "beginner",
 	"duration" : 4,
 	"description" : "Use your react.js skills to make a simple counter component",
 	"talents": [
