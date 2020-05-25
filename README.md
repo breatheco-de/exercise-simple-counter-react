@@ -60,7 +60,7 @@ function Card(props){
 
 # 📝 Instructions
 
-Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/solution/preview.gif).
+Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - The whole purpose of the component is to display how many seconds have passed since the website finished loading (onLoad).
 - Use the ***ReactDOM.render()*** to render the component into the web-app.
