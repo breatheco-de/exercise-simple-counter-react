@@ -1,12 +1,12 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Simple Counter with React
+# Simple Counter with React
 
-React improves the creation of custom components, which you can render throughout your webapp using the **ReactDOM.render()** method. A custom component allows you to divide and conquer, separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the webapp.
+React improves the creation of custom components, which you can render throughout your web-app using the **ReactDOM.render()** method. A custom component allows you to divide and conquer, separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
 
-For example, to create a bootstrap &#x3C;Card /&#x3E; component you'd code this:
+For example, to create a bootstrap `<Card />`; component you'd code this:
 
 ```jsx
 function Card(props){
-    render (
+    return (
         <div className="card">
             <img className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap" />
             <div className="card-body">
@@ -30,7 +30,7 @@ import Card from './component/Card.jsx'
 ReactDOM.render(<Card />, document.querySelector('#root'));
 ```
 
-Aditionally, you can pass information through the Card component using **props**:
+Additionally, you can pass information through the Card component using **props**:
 
 ```html
 
@@ -45,7 +45,7 @@ Aditionally, you can pass information through the Card component using **props**
 //Declaration of custom component (Card.js)
 
 function Card(props){
-    render (
+    return (
         <div className="card">
             <img className="card-img-top" src={props.imageUrl} alt="Card image cap" />
             <div className="card-body">
@@ -58,21 +58,22 @@ function Card(props){
 }
 ```
 
-# Instructions
+# 📝 Instructions
 
-Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://projects.breatheco.de/json?slug=simple-counter-react&preview).
+Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/solution/preview.gif).
 
 - The whole purpose of the component is to display how many seconds have passed since the website finished loading (onLoad).
-- Use the ***ReactDOM.render()*** to render the component into the webapp.
+- Use the ***ReactDOM.render()*** to render the component into the web-app.
 - Use the ***setInterval()*** function to re-render de component on every second.
 - The component does not need a local state, you can pass the number of seconds as **props** like this:
+
 ```
 <SecondsCounter seconds={3434} />
 
 ```
 - You can find the clock icon on the left of the component in [Font Awesome](https://fontawesome.com/).
 
-# Bonus
+# 🔥 Bonus
 - Create an option to countdown from a given number.
 - Create stop, reset, and resume functionality
-- Create an alert when the user reaches a specified time, ie the user enters "10", an alert should render notifiying the user that their time was reached
+- Create an alert when the user reaches a specified time, ie the user enters "10", an alert should render notifying the user that their time was reached
