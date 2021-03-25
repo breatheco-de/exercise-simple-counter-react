@@ -65,11 +65,11 @@ No clones este repositorio.
 
 a) Si usas  Gitpod puedes clonar el boilerplate [haciendo clic aqui](https://github.com/4GeeksAcademy/react-hello).
 
-b) Si trabajas localmente escirbe el siguiente comando en tu terminal:
+b) Si trabajas localmente escribe el siguiente comando en tu terminal:
 
 `git clone https://github.com/4GeeksAcademy/react-hello`.
 
-💡 Importante: Recuerda crear un nuevo repositorio actualizar el remoto y subir tu código a tu nuevo repositorio.
+💡 Importante: Recuerda crear un nuevo repositorio actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando àdd`, `commit`, y `push`
 
 
 # 📝 Instrucciones
