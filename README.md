@@ -58,6 +58,20 @@ function Card(props){
 }
 ```
 
+## 🌱  How to start this project
+
+Do not clone this repository.
+
+1. The first step to start coding is cloning the [react boilerplate](https://github.com/4GeeksAcademy/react-hello) on your local computer or gitpod.
+
+a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/react-hello).
+
+b) If working locally type the following command from your command line: 
+```bash
+` $ git clone https://github.com/4GeeksAcademy/react-hello`.
+````
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
 # 📝 Instructions
 
 Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
