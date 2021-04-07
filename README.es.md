@@ -22,7 +22,7 @@ function Card(props){
 Después de declararlo, puedes **importar** y **utilizar** en tu aplicación web de esta manera:
 
 ```jsx
-//import react into the bundle
+//import react al bundle
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './component/Card.jsx'
@@ -63,13 +63,13 @@ No clones este repositorio.
 
 1. El primer paso para empezar a codificar es clonar [react boilerplate](https://github.com/4GeeksAcademy/react-hello) en tu computador local o en gitpod.
 
-a) Si usas  Gitpod puedes clonar el boilerplate [haciendo clic aqui](https://github.com/4GeeksAcademy/react-hello).
+a) Si usas  Gitpod (recomendada) puedes clonar el boilerplate [haciendo clic aqui](https://github.com/4GeeksAcademy/react-hello).
 
 b) Si trabajas localmente escribe el siguiente comando en tu terminal:
 
 `git clone https://github.com/4GeeksAcademy/react-hello`.
 
-💡 Importante: Recuerda crear un nuevo repositorio actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando àdd`, `commit`, y `push`
+💡 Importante: Recuerda crear un nuevo repositorio actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando `add`, `commit`, y `push`
 
 
 # 📝 Instrucciones
