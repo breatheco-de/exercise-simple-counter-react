@@ -2,7 +2,7 @@
 
 React mejora la creación de componentes personalizados, que puedes representar a través de tu aplicación web utilizando el método **ReactDOM.render()**. Un componente personalizado te permite dividir y conquistar, separando los desafíos lógicos y visuales en partes más pequeñas, lo que le brinda un mayor control sobre la pantalla y las funcionalidades de cada parte de la aplicación web.
 
-Por ejemplo, para crear un bootstrap `<Card />` componente codificarías esto:
+Por ejemplo, para crear un componente bootstrap `<Card />` codificarías esto:
 
 ```jsx
 function Card(props){
@@ -63,18 +63,18 @@ No clones este repositorio.
 
 1. El primer paso para empezar a codificar es clonar [react boilerplate](https://github.com/4GeeksAcademy/react-hello) en tu computador local o en gitpod.
 
-a) Si usas  Gitpod (recomendada) puedes clonar el boilerplate [haciendo clic aqui](https://github.com/4GeeksAcademy/react-hello).
+a) Si usas Gitpod (recomendado) puedes clonar el boilerplate [haciendo clic aquí](https://github.com/4GeeksAcademy/react-hello).
 
 b) Si trabajas localmente escribe el siguiente comando en tu terminal:
 
 `git clone https://github.com/4GeeksAcademy/react-hello`.
 
-💡 Importante: Recuerda crear un nuevo repositorio actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando `add`, `commit`, y `push`
+💡 Importante: Recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando `add`, `commit`, y `push`
 
 
 # 📝 Instrucciones
 
-Crea un componente de contador de segundos, llamado ***SecondsCounter***. Debería verse [como este](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
+Crea un componente de contador de segundos, llamado ***SecondsCounter***. Debería verse [como éste](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - El propósito principal del componente es mostrar cuántos segundos han pasado desde que el sitio web terminó de cargarse (onLoad).
 - Use el ***ReactDOM.render()*** para representar el componente en la aplicación web.
