@@ -66,10 +66,11 @@ Do not clone this repository.
 
 a) If using Gitpod (reommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/react-hello).
 
-b) If working locally type the following command from your command line: 
+b) If working locally type the following command from your command line:
+
 ```bash
-` $ git clone https://github.com/4GeeksAcademy/react-hello`.
-````
+$ git clone https://github.com/4GeeksAcademy/react-hello.
+```
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
 # 📝 Instructions
@@ -81,9 +82,8 @@ Create a seconds-counter component, called ***SecondsCounter***. It should look 
 - Use the ***setInterval()*** function to re-render the component on every second.
 - The component does not need a local state, you can pass the number of seconds as **props** like this:
 
-```
+```jsx
 <SecondsCounter seconds={3434} />
-
 ```
 - You can find the clock icon on the left of the component in [Font Awesome](https://fontawesome.com/).
 
