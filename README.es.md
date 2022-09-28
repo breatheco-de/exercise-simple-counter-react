@@ -74,7 +74,7 @@ b) Si trabajas localmente escribe el siguiente comando en tu terminal:
 
 # 📝 Instrucciones
 
-Crea un componente de contador de segundos, llamado ***SecondsCounter***. Debería verse [como éste](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
+Crea un componente de contador de segundos, llamado ***SecondsCounter***. Debería verse [como este](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - El propósito principal del componente es mostrar cuántos segundos han pasado desde que el sitio web terminó de cargarse (onLoad).
 - Use el ***ReactDOM.render()*** para representar el componente en la aplicación web.
