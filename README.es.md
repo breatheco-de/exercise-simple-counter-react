@@ -67,7 +67,9 @@ a) Si usas Gitpod (recomendado) puedes clonar el boilerplate [haciendo clic aqu√
 
 b) Si trabajas localmente escribe el siguiente comando en tu terminal:
 
-`git clone https://github.com/4GeeksAcademy/react-hello`.
+```bash
+$ git clone https://github.com/4GeeksAcademy/react-hello
+```
 
 üí° Importante: Recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu c√≥digo a tu nuevo repositorio usando `add`, `commit`, y `push`
 
@@ -83,6 +85,5 @@ Crea un componente de contador de segundos, llamado ***SecondsCounter***. Deber√
 
 ```jsx
 <SecondsCounter seconds={3434} />
-
 ```
 - Puede encontrar el √≠cono del reloj a la izquierda del componente en fuente impresionante.
