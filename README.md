@@ -90,4 +90,4 @@ Create a seconds-counter component, called ***SecondsCounter***. It should look 
 # 🔥 Bonus
 - Create an option to countdown from a given number.
 - Create stop, reset, and resume functionality
-- Create an alert when the user reaches a specified time, ie the user enters "10", an alert should render notifying the user that their time was reached
+- Create an alert when the user reaches a specified time, if the user enters "10", an alert should render notifying the user that their time was reached

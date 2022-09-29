@@ -1,4 +1,4 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Simple Counter with React
+# Simple Counter with React
 
 React mejora la creación de componentes personalizados, que puedes representar a través de tu aplicación web utilizando el método **ReactDOM.render()**. Un componente personalizado te permite dividir y conquistar, separando los desafíos lógicos y visuales en partes más pequeñas, lo que le brinda un mayor control sobre la pantalla y las funcionalidades de cada parte de la aplicación web.
 
@@ -86,4 +86,9 @@ Crea un componente de contador de segundos, llamado ***SecondsCounter***. Deber�
 ```jsx
 <SecondsCounter seconds={3434} />
 ```
-- Puede encontrar el ícono del reloj a la izquierda del componente en fuente impresionante.
+- Puedes encontrar el icono del reloj a la izquierda del componente en [Font Awesome](https://fontawesome.com/).
+
+# 🔥 Bono
+- Crear una opción de cuenta regresiva a partir de un número dado.
+- Crear funciones de parada, reinicio y reanudación
+- Crear una alerta cuando el usuario llega a un tiempo específico, es decir, el usuario ingresa "10", una alerta debería mostrarse notificando al usuario que se alcanzó su tiempo
