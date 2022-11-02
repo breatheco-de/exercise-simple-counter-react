@@ -17,9 +17,9 @@ function Card(props){
         </div>
     );
 }
-```
+```gi
 
-Después de declararlo, puedes **importar** y **utilizar** en tu aplicación web de esta manera:
+Después de declararlo, puedes *importar* y *utilizar* en tu aplicación web de esta manera:
 
 ```jsx
 //import react al bundle
@@ -30,7 +30,7 @@ import Card from './component/Card.jsx'
 ReactDOM.render(<Card />, document.quertSelector('#root'));
 ```
 
-Adicionalmente, puedes pasar información a través de **props**:
+Adicionalmente, puedes pasar información a través de *props*=
 
 ```jsx
 
@@ -39,7 +39,7 @@ Adicionalmente, puedes pasar información a través de **props**:
 
 ```
 
-... para uso dentro del método de renderización de su componente:
+... Para uso dentro del método de renderización de su componente:
 
 ```jsx
 //Declaration of custom component (Card.jsx)
