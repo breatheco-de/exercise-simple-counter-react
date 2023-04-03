@@ -1,4 +1,6 @@
+<!--hide-->
 # Simple Counter with React
+<!--endhide-->
 
 React improves the creation of custom components, which you can render throughout your web-app using the **ReactDOM.render()** method. A custom component allows you to divide and conquer, separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
 

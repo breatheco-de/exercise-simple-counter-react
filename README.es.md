@@ -1,4 +1,6 @@
-# Simple Counter with React
+<!--hide-->
+# Contador Simple con React
+<!--endhide-->
 
 React mejora la creación de componentes personalizados, que puedes representar a través de tu aplicación web utilizando el método **ReactDOM.render()**. Un componente personalizado te permite dividir y conquistar, separando los desafíos lógicos y visuales en partes más pequeñas, lo que le brinda un mayor control sobre la pantalla y las funcionalidades de cada parte de la aplicación web.
 
@@ -65,7 +67,7 @@ No clones este repositorio.
 
 a) Si usas Gitpod (recomendado) puedes clonar el boilerplate [haciendo clic aquí](https://github.com/4GeeksAcademy/react-hello).
 
-b) Si trabajas localmente escribe el siguiente comando en tu terminal:
+b) Si trabajas localmente, escribe el siguiente comando en tu terminal:
 
 ```bash
 $ git clone https://github.com/4GeeksAcademy/react-hello
