@@ -59,22 +59,22 @@ function Card(props){
     );
 }
 ```
-## 🌱  Cómo comenzar este proyecto
 
-No clones este repositorio.
+## 🌱 Cómo comenzar este proyecto
 
-1. El primer paso para empezar a codificar es clonar [react boilerplate](https://github.com/4GeeksAcademy/react-hello) en tu computador local o en gitpod.
+No clones este repositorio porque vamos a usar una plantilla diferente.
 
-a) Si usas Gitpod (recomendado) puedes clonar el boilerplate [haciendo clic aquí](https://github.com/4GeeksAcademy/react-hello).
+Recomendamos abrir el `react boilerplate` usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
 
-b) Si trabajas localmente, escribe el siguiente comando en tu terminal:
+Este es el repositorio que necesitas abrir o clonar:
 
-```bash
-$ git clone https://github.com/4GeeksAcademy/react-hello
+```
+https://github.com/4GeeksAcademy/react-hello
 ```
 
-💡 Importante: Recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <your new url>`) y subir tu código a tu nuevo repositorio usando `add`, `commit`, y `push`
+**👉 Por favor sigue estos pasos** [cómo comenzar un proyecto de codificación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
+💡 Importante: Recuerda guardar y subir tu código a GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal de git.
 
 # 📝 Instrucciones
 
@@ -94,3 +94,5 @@ Crea un componente de contador de segundos, llamado ***SecondsCounter***. Deber�
 - Crear una opción de cuenta regresiva a partir de un número dado.
 - Crear funciones de parada, reinicio y reanudación
 - Crear una alerta cuando el usuario llega a un tiempo específico, es decir, el usuario ingresa "10", una alerta debería mostrarse notificando al usuario que se alcanzó su tiempo
+
+Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).

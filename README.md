@@ -62,18 +62,19 @@ function Card(props){
 
 ## 🌱  How to start this project
 
-Do not clone this repository.
+Do not clone this repository because we are going to be using a different template.
 
-1. The first step to start coding is cloning the [react boilerplate](https://github.com/4GeeksAcademy/react-hello) on your local computer or gitpod.
+We recommend opening the `react boilerplate` using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
 
-a) If using Gitpod (reommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/react-hello).
+This is the repository you need to open or clone:
 
-b) If working locally type the following command from your command line:
-
-```bash
-$ git clone https://github.com/4GeeksAcademy/react-hello.
 ```
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+https://github.com/4GeeksAcademy/react-hello
+```
+
+**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+
+💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
 
 # 📝 Instructions
 
@@ -93,3 +94,5 @@ Create a seconds-counter component, called ***SecondsCounter***. It should look 
 - Create an option to countdown from a given number.
 - Create stop, reset, and resume functionality
 - Create an alert when the user reaches a specified time, if the user enters "10", an alert should render notifying the user that their time was reached
+
+This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
