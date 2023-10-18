@@ -42,7 +42,7 @@ Additionally, you can pass information through the Card component using **props*
 For usage within the render method of your Card component (notice the image src and card title):
 
 ```jsx
-// Declaration of a custom component (Card.js)
+// Declaration of a custom component (Card.jsx)
 
 function Card(props){
     return (
