@@ -4,7 +4,7 @@
 
 React improves the creation of custom components, which you can render throughout your web-app using the **ReactDOM.render()** method. A custom component allows you to divide and conquer, separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
 
-For example, to create a bootstrap `<Card />`; component you'd code this:
+For example, to create a bootstrap `<Card />` component you'd code this:
 
 ```jsx
 function Card(props){
@@ -24,7 +24,7 @@ function Card(props){
 After declaring it, you are able to **import** and **use** it in your webapp like this:
 
 ```jsx
-//import react into the bundle
+// Import react into the bundle
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './component/Card.jsx'
@@ -34,17 +34,15 @@ ReactDOM.render(<Card />, document.querySelector('#root'));
 
 Additionally, you can pass information through the Card component using **props**:
 
-```html
-
-<!-- Use of the custom component -->
+```jsx
+// Use of the custom component
 <Card imageUrl="http://via.placeholder.com/350x150" title="A nice image" />
-
 ```
 
-... for usage within the render method of your Card component (notice the image src and card title):
+For usage within the render method of your Card component (notice the image src and card title):
 
 ```jsx
-//Declaration of custom component (Card.js)
+// Declaration of a custom component (Card.jsx)
 
 function Card(props){
     return (
@@ -60,7 +58,7 @@ function Card(props){
 }
 ```
 
-## 🌱  How to start this project
+## 🌱 How to start this project
 
 Do not clone this repository because we are going to be using a different template.
 
@@ -68,31 +66,33 @@ We recommend opening the `react boilerplate` using a provisioning tool like [Cod
 
 This is the repository you need to open or clone:
 
-```
+```text
 https://github.com/4GeeksAcademy/react-hello
 ```
 
 **👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
 
-💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
+> 💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
 
-# 📝 Instructions
+## 📝 Instructions
 
-Create a seconds-counter component, called ***SecondsCounter***. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
+Create a seconds-counter component, called `SecondsCounter`. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - The whole purpose of the component is to display how many seconds have passed since the website finished loading (onLoad).
 - Use the ***ReactDOM.render()*** to render the component into the web-app.
-- Use the ***setInterval()*** function to re-render the component on every second.
-- The component does not need a local state, you can pass the number of seconds as **props** like this:
+- Use the ***setInterval()*** function to re-render the component every second.
+- The component does not need a local state, you can pass the number of seconds as **props**, like this:
 
 ```jsx
 <SecondsCounter seconds={3434} />
 ```
+
 - You can find the clock icon on the left of the component in [Font Awesome](https://fontawesome.com/).
 
-# 🔥 Bonus
+## 🔥 Bonus
+
 - Create an option to countdown from a given number.
-- Create stop, reset, and resume functionality
-- Create an alert when the user reaches a specified time, if the user enters "10", an alert should render notifying the user that their time was reached
+- Create stop, reset, and resume functionality.
+- Create an alert when the user reaches a specified time. If the user enters "10", an alert should render, notifying the user that their time was reached.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
