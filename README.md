@@ -34,8 +34,8 @@ ReactDOM.render(<Card />, document.querySelector('#root'));
 
 Additionally, you can pass information through the Card component using **props**:
 
-```html
-<!-- Use of the custom component -->
+```jsx
+// Use of the custom component
 <Card imageUrl="http://via.placeholder.com/350x150" title="A nice image" />
 ```
 
