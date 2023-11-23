@@ -29,7 +29,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './component/Card.jsx'
 
-ReactDOM.render(<Card />, document.quertSelector('#root'));
+ReactDOM.render(<Card />, document.querySelector('#root'));
 ```
 
 Adicionalmente, puedes pasar información a través de **props**:
