@@ -1,10 +1,10 @@
 <!--hide-->
-# Create a simple counter Using ReactJS
+# Create a simple counter Using React.js
 <!--endhide-->
 
 A simple counter is the perfect project web you are in your early steps of learning the React.js library.
 
-We are going to create a visual countdown to showcase the concept of `[React Components](https://4geeks.com/lesson/making-react-components#the-component-props)` and how you can leverage component properties (props) to reuse those components easily.
+We are going to create a visual countdown to showcase the concept of [`React Components`](https://4geeks.com/lesson/making-react-components#the-component-props) and how you can leverage component properties (props) to reuse those components easily.
 
 A custom component allows you to "divide and conquer", separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
 
