@@ -91,7 +91,7 @@ https://github.com/4GeeksAcademy/react-hello
 Create a seconds-counter component, called `SecondsCounter`. It should look [like this one](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - The whole purpose of the component is to display how many seconds have passed since the website finished loading (onLoad).
-- Use the ***ReactDOM.render()*** to render the component into the web-app.
+- Use the [***ReactDOM.createRoot***](https://4geeks.com/lesson/react-createroot-vs-render) to render the component into the web-app.
 - Use the ***setInterval()*** function to re-render the component every second.
 - The component does not need a local state, you can pass the number of seconds as **props**, like this:
 
