@@ -29,7 +29,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './component/Card.jsx'
 
-ReactDOM.render(<Card />, document.quertSelector('#root'));
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<App />);
+
+// Si usas una version de react anterior a la 18 puedes usar
+// ReactDOM.render de esta manera
+// ReactDOM.render(<Card />, document.quertSelector('#root'));
 ```
 
 Adicionalmente, puedes pasar información a través de **props**:
@@ -79,7 +84,7 @@ https://github.com/4GeeksAcademy/react-hello
 Crea un componente de contador de segundos, llamado ***SecondsCounter***. Debería verse [como este](https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif).
 
 - El propósito principal del componente es mostrar cuántos segundos han pasado desde que el sitio web terminó de cargarse (onLoad).
-- Usa ***ReactDOM.render()*** para representar el componente en la aplicación web.
+- Usa [***ReactDOM.createRoot()***](https://4geeks.com/es/lesson/la-funcion-react-createroot-vs-render) para representar el componente en la aplicación web.
 - Usa la función ***setInterval()*** para volver a renderizar el componente cada segundo.
 - El componente no necesita un estado local, puede pasar la cantidad de segundos como **props** de la siguiente manera:
 
