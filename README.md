@@ -1,8 +1,12 @@
 <!--hide-->
-# Simple Counter with React
+# Create a simple counter Using ReactJS
 <!--endhide-->
 
-React improves the creation of custom components, which you can render throughout your web-app using the **ReactDOM.render()** method. A custom component allows you to divide and conquer, separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
+A simple counter is the perfect project web you are in your early steps of learning the React.js library.
+
+We are going to create a visual countdown to showcase the concept of `[React Components](https://4geeks.com/lesson/making-react-components#the-component-props)` and how you can leverage component properties (props) to reuse those components easily.
+
+A custom component allows you to "divide and conquer", separating logical and visual challenges into smaller pieces- giving you greater control over the display and functionalities of each part of the web-app.
 
 For example, to create a bootstrap `<Card />` component you'd code this:
 
@@ -21,7 +25,7 @@ function Card(props){
 }
 ```
 
-After declaring it, you are able to **import** and **use** it in your webapp like this:
+After declaring it, you can **import** and **use** it in your webapp like this:
 
 ```jsx
 // Import react into the bundle
@@ -29,8 +33,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './component/Card.jsx'
 
-ReactDOM.render(<Card />, document.querySelector('#root'));
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<App />);
+
+// If you are using a previous version from React v18
+// you have to use ReactDOM.render instead of createRoot
+// like this:
+// ReactDOM.render(<Card />, document.querySelector('#root'));
 ```
+
+> 💡 Note how `ReactDOM.createRoot` is a function you have to use only one time in your entire application
 
 Additionally, you can pass information through the Card component using **props**:
 
