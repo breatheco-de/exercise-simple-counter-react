@@ -104,7 +104,7 @@ Create a seconds-counter component, called `SecondsCounter`. It should look [lik
 ## 🔥 Bonus
 
 - Create an option to countdown from a given number.
-- Create stop, reset, and resume functionality.
+- Create the stop, reset, and resume functionality.
 - Create an alert when the user reaches a specified time. If the user enters "10", an alert should render, notifying the user that their time was reached.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
