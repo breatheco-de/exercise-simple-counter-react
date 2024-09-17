@@ -11,7 +11,7 @@ A custom component allows you to "divide and conquer", separating logical and vi
 For example, to create a bootstrap `<Card />` component you'd code this:
 
 ```jsx
-function Card(props){
+export default function Card(props){
     return (
         <div className="card">
             <img className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap" />
@@ -56,7 +56,7 @@ For usage within the render method of your Card component (notice the image src 
 ```jsx
 // Declaration of a custom component (Card.jsx)
 
-function Card(props){
+export default function Card(props){
     return (
         <div className="card">
             <img className="card-img-top" src={props.imageUrl} alt="Card image cap" />
