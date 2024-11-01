@@ -14,3 +14,4 @@ function SimpleCounter({ digitFour, digitThree, digitTwo, digitOne }) {
     );
 }
 
+export default SimpleCounter
