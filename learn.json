@@ -10,6 +10,7 @@
 	"difficulty": "beginner",
 	"syntax": "jsx",
 	"duration" : 4,
+	"template_url": "https://github.com/4GeeksAcademy/machine-learning-python-template",
 	"description" : "Use your react.js skills to make a simple counter component",
 	"talents": [
 		{ "badge": "functional-developer", "points": 6 }
