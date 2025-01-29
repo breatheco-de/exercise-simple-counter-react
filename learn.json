@@ -1,5 +1,8 @@
 {
-	"title" : "Simple Counter",
+	"title" : {
+    "us": "Simple Counter",
+    "es": "Contador simple"
+},
 	"slug" : "simple-counter-react",
 	"video-id": "CMMNdoTJMJM",
 	"solution": "https://github.com/breatheco-de/exercise-simple-counter-react/tree/solution",
@@ -8,12 +11,19 @@
 	"translations": ["es", "us"],
 	"technologies": ["reactjs"],
 	"difficulty": "beginner",
+        "template_url": "https://github.com/4GeeksAcademy/react-hello",
 	"syntax": "jsx",
 	"duration" : 4,
-	"description" : "Use your react.js skills to make a simple counter component",
+	"description" : {
+    "us": "Enhance your React.js skills by building a simple counter component that dynamically tracks elapsed time. This project reinforces React Components, props, and setInterval() usage. Display elapsed seconds, customize countdowns, and add reset or alert functionalities.",
+    "es": "Mejora tus habilidades en React.js creando un componente de contador simple que rastree el tiempo transcurrido dinámicamente. Este proyecto refuerza el uso de Componentes de React, props y setInterval(). Muestra los segundos transcurridos, personaliza cuentas regresivas y añade funciones de reinicio o alertas."
+},
 	"talents": [
 		{ "badge": "functional-developer", "points": 6 }
 	],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=194"
+}
 }
