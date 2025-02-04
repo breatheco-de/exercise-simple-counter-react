@@ -15,6 +15,7 @@
         "template_url": "https://github.com/4GeeksAcademy/react-hello",
 	"syntax": "jsx",
 	"duration" : 4,
+	"template_url": "https://github.com/4GeeksAcademy/react-hello",
 	"description" : {
     "us": "Enhance your React.js skills by building a simple counter component that dynamically tracks elapsed time. This project reinforces React Components, props, and setInterval() usage. Display elapsed seconds, customize countdowns, and add reset or alert functionalities.",
     "es": "Mejora tus habilidades en React.js creando un componente de contador simple que rastree el tiempo transcurrido dinámicamente. Este proyecto refuerza el uso de Componentes de React, props y setInterval(). Muestra los segundos transcurridos, personaliza cuentas regresivas y añade funciones de reinicio o alertas."
