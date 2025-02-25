@@ -10,7 +10,7 @@
 	"status": "published",
 	"preview": "https://github.com/breatheco-de/exercise-simple-counter-react/blob/master/preview.gif?raw=true",
 	"translations": ["es", "us"],
-	"technologies": ["reactjs"],
+	"technologies": ["reactjs", "react-components", "componetes-react", "javascript", "HTML"],
 	"difficulty": "beginner",
         "template_url": "https://github.com/4GeeksAcademy/react-hello",
 	"syntax": "jsx",
